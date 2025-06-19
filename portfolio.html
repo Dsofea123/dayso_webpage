@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Stickers - Dayso Design Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Neue', cursive;
+      background: #FFF8F2;
+      overflow-x: hidden;
+      position: relative;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background: linear-gradient(135deg, #E0F7FA, #FFE0EC);
+      position: relative;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #FF69B4;
+      animation: bounce 2s infinite ease-in-out;
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: #5E2750;
+      margin-bottom: 30px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .sticker {
+      width: 180px;
+      border-radius: 20px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      position: relative;
+    }
+    .sticker img {
+      width: 100%;
+      display: block;
+    }
+    .sticker:hover {
+      transform: scale(1.05);
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .back-btn {
+      margin: 30px 10px;
+      padding: 12px 24px;
+      background: #FF69B4;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s ease;
+    }
+    .back-btn:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>🌟 My Sticker Creations! 💕</h1>
+    <h2>Handmade with love and pastel dreams ✨</h2>
+  </section>
+
+  <section class="gallery">
+    <div class="sticker">
+      <img src="dayana2.png" alt="Love Sticker">
+    </div>
+    <div class="sticker">
+      <img src="dayana3.png" alt="Flower Sticker">
+    </div>
+    <div class="sticker">
+      <img src="dayana4.png" alt="Bee Sticker">
+    </div>
+    <div class="sticker">
+      <img src="dayana5.png" alt="Bubble Sticker">
+    </div>
+    <div class="sticker">
+      <img src="dayana6.png" alt="Balloon Sticker">
+    </div>
+    <div class="sticker">
+      <img src="dayana7.png" alt="Ball Sticker">
+    </div>
+  </section>
+
+  <div style="text-align:center;">
+    <a href="about.html" class="back-btn">← About Me</a>
+    <a href="shop.html" class="back-btn">Next: Shop →</a>
+  </div>
+</body>
+</html>
